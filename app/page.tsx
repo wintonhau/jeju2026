@@ -638,7 +638,7 @@ const fetchTipForSingleItem = async (item) => {
 備註資訊：${item.remarks || '無'}
 費用資訊：${item.cost || '無'}`;
 
-  const apiKey = "AQ.Ab8RN6JqDlzrR2rP2uCKCNpV1x5Fgyr1ITa7lGG143zvxKwbIw"; // Enter API key here if needed
+  const apiKey = process.env.NEXT_PUBLIC_GEMINI_API_KEY; // Enter API key here if needed
   const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`;
 
   const payload = {
