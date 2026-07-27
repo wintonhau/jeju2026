@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useMemo, useEffect } from 'react';
 
 // 內建 PDF 憑證完整詳細資料 (還原上傳 PDF 之內容)
