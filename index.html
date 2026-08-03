@@ -256,13 +256,13 @@
         ];
 
         const ACCOMMODATION_NAV = {
-            "2026-08-07": { label: "導航至酒店", naver: "https://naver.me/xrSQElJI" },
-            "2026-08-08": { label: "導航至宿舍", naver: "https://naver.me/F8u1mjKD" },
-            "2026-08-09": { label: "導航至宿舍", naver: "https://naver.me/F8u1mjKD" },
-            "2026-08-10": { label: "導航至宿舍", naver: "https://naver.me/F8u1mjKD" },
-            "2026-08-11": { label: "導航至宿舍", naver: "https://naver.me/F8u1mjKD" },
-            "2026-08-12": { label: "導航至民宿", naver: "https://naver.me/xSBwcH0q" },
-            "2026-08-13": { label: "導航至民宿", naver: "https://naver.me/xSBwcH0q" }
+            "2026-08-07": { label: "返酒店", naver: "https://naver.me/xrSQElJI" },
+            "2026-08-08": { label: "返宿舍", naver: "https://naver.me/F8u1mjKD" },
+            "2026-08-09": { label: "返宿舍", naver: "https://naver.me/F8u1mjKD" },
+            "2026-08-10": { label: "返宿舍", naver: "https://naver.me/F8u1mjKD" },
+            "2026-08-11": { label: "返宿舍", naver: "https://naver.me/F8u1mjKD" },
+            "2026-08-12": { label: "返民宿", naver: "https://naver.me/xSBwcH0q" },
+            "2026-08-13": { label: "返民宿", naver: "https://naver.me/xSBwcH0q" }
         };
 
         // Group data by date
@@ -511,11 +511,11 @@
                     <section id="date-section-${date}" class="scroll-mt-36">
                         <div class="flex justify-between items-center mb-4 sticky top-[133.5px] z-20 py-3.5 bg-[#F8FAFC]/95 backdrop-blur-sm border-b border-gray-200/60">
                             <h2 class="text-lg font-bold text-gray-900 flex items-center gap-2">
-                                <span>📅</span> ${formatDateDisplay(date)} 行程表
+                                <span>📅</span> ${formatDateDisplay(date)}
                             </h2>
                             <div class="flex items-center gap-2">
                                 <a href="https://www.kma.go.kr/neng/index.do" target="_blank" rel="noopener noreferrer" class="px-3 py-1 bg-gray-100 text-gray-700 border border-gray-200 text-xs rounded-lg font-bold shadow-2xs hover:bg-gray-200 transition-colors flex items-center gap-1 active:scale-95">
-                                    <span>氣象廳</span>⛅
+                                    <span>天氣</span>⛅
                                 </a>
                                 ${headerNavHtml}
                             </div>
